@@ -1,0 +1,45 @@
+.rs-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #575757;
+
+    .nav-toggle {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .rs-sidenav {
+        background-color: #575757;
+    }
+
+    .rs-navbar {
+        
+        background-color: #575757 !important;
+        .rs-navbar-body {
+            background-color: #575757;
+
+            .rs-nav {
+                background-color: #575757;
+
+                .rs-dropdown-toggle {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .rs-dropdown-item-content,
+    .rs-nav-item-content {
+        color : white !important;
+
+        &:hover {
+            color: #575757 !important;
+        }
+    }
+
+    .rs-btn-subtle {
+        color: white;
+    }
+}
